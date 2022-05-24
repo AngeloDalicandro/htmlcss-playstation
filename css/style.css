@@ -1,3 +1,5 @@
+/* COMMONS */
+
 /* font */
 body {
     font-family: Arial, sans-serif;
@@ -7,3 +9,84 @@ header {
     font-family: Helvetica, arial, sans-serif;
 }
 
+
+
+/* header */
+/* top */
+.ms_header_top {
+    text-align: right;
+    background-color: black;
+}
+
+.ms_header_top img {
+    width: 7.5rem;
+    padding: 0.75rem;
+}
+
+/* bot */
+.ms_header_bot {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+#ps_logo {
+    padding-left: 0.5rem;
+}
+
+.ms_header_bot ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.ms_header_bot li {
+    padding: 0 0.5rem;
+    line-height: 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ms_header_bot li img {
+    width: 0.5rem;
+}
+
+.ms_nav_left {
+    display: flex;
+}
+
+.burger {
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border: 1px solid grey;
+}
+
+.burger i {
+    font-size: 1.5rem;
+}
+
+/* button */ 
+#ms_btn_header {
+    line-height: normal;
+    align-self: center;
+}
+
+.ms_btn_login {
+    background-color: #363636;
+    border-radius: 1.5rem;
+    color: white;
+    padding: 0.75rem;
+}
+
+.ms_btn_login a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul .ms_src_lens {
+    padding: 0 1.5rem;
+}
+ul .ms_src_lens img {
+    width: 2rem;
+}
