@@ -60,6 +60,7 @@ header {
     padding: 0.5rem 1rem;
     margin: 1rem;
     border: 1px solid grey;
+    align-self: center;
 }
 
 .burger i {
@@ -89,4 +90,26 @@ ul .ms_src_lens {
 }
 ul .ms_src_lens img {
     width: 2rem;
+}
+
+/* main */ 
+
+/* jumbotron */
+.ms_jumbotron {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 6.5rem;
+    height: calc(100vh - 6.5rem);
+    color: white;
+}  
+
+.ms_jumbotron a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ms_j_height {
+    height: calc(100vh - 6.5rem);
+    padding-bottom: 3rem;
 }
