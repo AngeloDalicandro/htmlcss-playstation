@@ -1,5 +1,9 @@
 /* COMMONS */
 
+img {
+    max-width: 100%;
+}
+
 /* font */
 body {
     font-family: Arial, sans-serif;
@@ -112,4 +116,13 @@ ul .ms_src_lens img {
 .ms_j_height {
     height: calc(100vh - 6.5rem);
     padding-bottom: 3rem;
+}
+
+/* first section */
+#ms_first_section {
+    margin: 5rem 0;
+}
+
+#ms_first_section img {
+    border-radius: 1rem;
 }
