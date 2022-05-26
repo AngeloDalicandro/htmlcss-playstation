@@ -147,7 +147,8 @@ ul .ms_src_lens img {
 }
 
 /* 2nd section */
-#ms_2nd_section span {
+#ms_2nd_section h4 {
+    margin-bottom: -0.5rem;
     font-size: 1rem;
     color: #2886d4;
 }
