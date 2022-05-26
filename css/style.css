@@ -126,3 +126,46 @@ ul .ms_src_lens img {
 #ms_first_section img {
     border-radius: 1rem;
 }
+
+/* 2nd section */
+
+/* 3rd section */
+
+/* 4th section */
+
+/* 5th section */
+#ms_5th_section {
+    /* height: calc(100vh - 6.5rem); */
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+    color: white;
+}
+
+/* 6th section */
+#ms_6th_section {
+    color: white;
+    background-color: #1f1f1f;
+}
+
+#ms_6th_section img {
+    border-radius: 1rem;
+}
+
+/*  7th section */
+
+/* 8th section */
+#ms_8th_section {
+    background-color: #bebcbb;
+}
+
+/* 9th section */
+
+/* 10th section */
+#ms_10th_section {
+    background-color: #161c3b;
+    color: white;
+}
+
+/* 11th section */
