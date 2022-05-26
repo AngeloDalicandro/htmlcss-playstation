@@ -4,6 +4,9 @@ img {
     max-width: 100%;
 }
 
+.ms_grey_text {
+    color: #ababab;
+}
 /* font */
 body {
     font-family: Arial, sans-serif;
@@ -118,6 +121,22 @@ ul .ms_src_lens img {
     padding-bottom: 3rem;
 }
 
+.ms_jumbotron img {
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+.ms_jumbotron h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.ms_jumbotron p {
+    font-size: 1.25rem;
+    margin: 2rem 0;
+    font-weight: 500;
+}
+
 /* first section */
 #ms_first_section {
     margin: 5rem 0;
@@ -128,14 +147,55 @@ ul .ms_src_lens img {
 }
 
 /* 2nd section */
+#ms_2nd_section span {
+    font-size: 1rem;
+    color: #2886d4;
+}
+
+#ms_2nd_section h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#ms_2nd_section p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    font-weight: 500;
+}
 
 /* 3rd section */
+#ms_3rd_section h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#ms_3rd_section p {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    font-weight: 500;
+}
+
+#ms_3rd_section a {
+    color: white;
+    text-decoration: none;
+}
 
 /* 4th section */
+#ms_4th_section {
+    padding: 2rem 0;
+}
+
+#ms_4th_section .ms_border {
+    height: 100%;
+    border-bottom: 3px solid #00439c;
+}
+
+#ms_4th_section .ms_opacity {
+    opacity: 0.5;
+}
 
 /* 5th section */
 #ms_5th_section {
-    /* height: calc(100vh - 6.5rem); */
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -143,10 +203,27 @@ ul .ms_src_lens img {
     color: white;
 }
 
+#ms_5th_section h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+#ms_5th_section p {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
 /* 6th section */
 #ms_6th_section {
     color: white;
     background-color: #1f1f1f;
+    padding: 4rem 0;
+}
+
+#ms_6th_section h3,h4 {
+    margin-bottom: 2rem;
+    font-weight: 600;
 }
 
 #ms_6th_section img {
@@ -154,13 +231,54 @@ ul .ms_src_lens img {
 }
 
 /*  7th section */
+#ms_7th_section {
+    padding: 4rem 0;
+}
+
+#ms_7th_section h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+#ms_7th_section p {
+    font-size: 1.25rem;
+    margin: 2rem 0 3rem 0;
+    font-weight: 600;
+}
+
+#ms_7th_section .ms_caption {
+    margin: 1rem 0;
+}
+
+#ms_7th_section a {
+    color: white;
+    text-decoration: none;
+}
 
 /* 8th section */
 #ms_8th_section {
     background-color: #bebcbb;
 }
 
+#ms_8th_section p {
+    margin: 2rem 0;
+}
+
 /* 9th section */
+#ms_9th_section {
+    padding: 4rem 0;
+}
+
+#ms_9th_section h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+#ms_9th_section p {
+    font-size: 1.25rem;
+    margin: 2rem 0;
+    font-weight: 600;
+}
 
 /* 10th section */
 #ms_10th_section {
@@ -168,4 +286,52 @@ ul .ms_src_lens img {
     color: white;
 }
 
+#ms_10th_section p {
+    margin: 3rem 0;
+}
+
 /* 11th section */
+#ms_11th_section {
+    padding: 4rem 0;
+} 
+
+#ms_11th_section h4 {
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+/* footer */
+
+footer {
+    color: white;
+    background-color: #00439c;
+    padding: 3rem 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .ms_language {
+    margin: 2rem 0;
+}
+
+footer .ms_language img {
+    width: 1rem;
+}
+
+footer p a {
+    text-decoration: underline;
+} 
+
+footer .ms_sie img {
+    width: 10rem;
+}
+
+.ms_sie {
+    margin: 1rem 0;
+}
