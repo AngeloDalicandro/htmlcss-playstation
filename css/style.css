@@ -7,6 +7,18 @@ img {
 .ms_grey_text {
     color: #ababab;
 }
+
+.ms_btn_orange {
+    background-color: #cd3d0f;
+    border-radius: 1.5rem;
+}
+
+.ms_btn_blue {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    border-radius: 1.5rem;
+}
 /* font */
 body {
     font-family: Arial, sans-serif;
@@ -215,6 +227,11 @@ ul .ms_src_lens img {
     font-weight: 500;
 }
 
+#ms_5th_section a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* 6th section */
 #ms_6th_section {
     color: white;
@@ -265,6 +282,12 @@ ul .ms_src_lens img {
     margin: 2rem 0;
 }
 
+.ms_btn_grey {
+    color: #0d6efd;
+    background-color: #d9dadc;
+    border-radius: 1.5rem;
+}
+
 /* 9th section */
 #ms_9th_section {
     padding: 4rem 0;
@@ -289,6 +312,12 @@ ul .ms_src_lens img {
 
 #ms_10th_section p {
     margin: 3rem 0;
+}
+
+.ms_btn_white {
+    color: black;
+    background-color: white;
+    border-radius: 1.5rem;
 }
 
 /* 11th section */
